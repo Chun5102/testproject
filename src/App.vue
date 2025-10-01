@@ -2,6 +2,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import RefCount from './components/RefCount.vue'
+import ReactiveComp from './components/ReactiveComp.vue'
 </script>
 
 <template>
@@ -10,7 +11,8 @@ import RefCount from './components/RefCount.vue'
 
     <div class="wrapper">
       <!-- <HelloWorld msg="did it!" /> -->
-      <RefCount />
+      <!-- <RefCount /> -->
+      <ReactiveComp />
     </div>
   </header>
 
