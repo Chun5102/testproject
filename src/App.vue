@@ -3,6 +3,7 @@ import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import RefCount from './components/RefCount.vue'
 import ReactiveComp from './components/ReactiveComp.vue'
+import ChangColor from './components/ChangColor.vue'
 </script>
 
 <template>
@@ -13,6 +14,7 @@ import ReactiveComp from './components/ReactiveComp.vue'
       <!-- <HelloWorld msg="did it!" /> -->
       <!-- <RefCount /> -->
       <ReactiveComp />
+      <ChangColor />
     </div>
   </header>
 
