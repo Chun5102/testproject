@@ -26,4 +26,8 @@ const reset = () => {
   <!-- <button @click="count = 0">Reset</button> -->
 </template>
 
-<style scoped></style>
+<style scoped>
+button {
+  margin: 0 5px;
+}
+</style>
