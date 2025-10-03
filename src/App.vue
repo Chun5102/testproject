@@ -6,6 +6,9 @@ import ReactiveComp from './components/ReactiveComp.vue'
 import ChangColor from './components/ChangColor.vue'
 import ComputedAndMethod from './components/ComputedAndMethod.vue'
 import ShppingCar from './components/ShppingCar.vue'
+import DisableComputed from './components/DisableComputed.vue'
+import TermsAgreement from './components/TermsAgreement.vue'
+import VbindStyle from './components/VbindStyle.vue'
 </script>
 
 <template>
@@ -18,7 +21,10 @@ import ShppingCar from './components/ShppingCar.vue'
       <!-- <ReactiveComp /> -->
       <!-- <ChangColor /> -->
       <!-- <ComputedAndMethod /> -->
-      <ShppingCar />
+      <!-- <ShppingCar /> -->
+      <!-- <DisableComputed /> -->
+      <!-- <TermsAgreement /> -->
+      <VbindStyle />
     </div>
   </header>
 
