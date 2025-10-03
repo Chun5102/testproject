@@ -9,6 +9,7 @@ import ShppingCar from './components/ShppingCar.vue'
 import DisableComputed from './components/DisableComputed.vue'
 import TermsAgreement from './components/TermsAgreement.vue'
 import VbindStyle from './components/VbindStyle.vue'
+import VbindClass from './components/VbindClass.vue'
 </script>
 
 <template>
@@ -24,7 +25,8 @@ import VbindStyle from './components/VbindStyle.vue'
       <!-- <ShppingCar /> -->
       <!-- <DisableComputed /> -->
       <!-- <TermsAgreement /> -->
-      <VbindStyle />
+      <!-- <VbindStyle /> -->
+      <VbindClass />
     </div>
   </header>
 
