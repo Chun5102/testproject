@@ -5,6 +5,7 @@ import RefCount from './components/RefCount.vue'
 import ReactiveComp from './components/ReactiveComp.vue'
 import ChangColor from './components/ChangColor.vue'
 import ComputedAndMethod from './components/ComputedAndMethod.vue'
+import ShppingCar from './components/ShppingCar.vue'
 </script>
 
 <template>
@@ -16,7 +17,8 @@ import ComputedAndMethod from './components/ComputedAndMethod.vue'
       <!-- <RefCount /> -->
       <!-- <ReactiveComp /> -->
       <!-- <ChangColor /> -->
-      <ComputedAndMethod />
+      <!-- <ComputedAndMethod /> -->
+      <ShppingCar />
     </div>
   </header>
 
