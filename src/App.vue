@@ -12,7 +12,10 @@ import VbindStyle from './components/VbindStyle.vue'
 import VbindClass from './components/VbindClass.vue'
 import VifDemo from './components/VifDemo.vue'
 import ConditionalRendering from './components/ConditionalRendering.vue'
+import ConditionalRenderingReactive from './components/ConditionalRenderingReactive.vue'
 import VifVshowDiff from './components/VifVshowDiff.vue'
+import VforObject from './components/VforObject.vue'
+import ProductList from './components/ProductList.vue'
 </script>
 
 <template>
@@ -32,7 +35,10 @@ import VifVshowDiff from './components/VifVshowDiff.vue'
       <!-- <VbindClass /> -->
       <!-- <VifDemo /> -->
       <!-- <ConditionalRendering /> -->
-      <VifVshowDiff />
+      <!-- <ConditionalRenderingReactive /> -->
+      <!-- <VifVshowDiff /> -->
+      <!-- <VforObject /> -->
+      <ProductList />
     </div>
   </header>
 
