@@ -11,6 +11,7 @@ import TermsAgreement from './components/TermsAgreement.vue'
 import VbindStyle from './components/VbindStyle.vue'
 import VbindClass from './components/VbindClass.vue'
 import VifDemo from './components/VifDemo.vue'
+import ConditionalRendering from './components/ConditionalRendering.vue'
 </script>
 
 <template>
@@ -28,7 +29,8 @@ import VifDemo from './components/VifDemo.vue'
       <!-- <TermsAgreement /> -->
       <!-- <VbindStyle /> -->
       <!-- <VbindClass /> -->
-      <VifDemo />
+      <!-- <VifDemo /> -->
+      <ConditionalRendering />
     </div>
   </header>
 
