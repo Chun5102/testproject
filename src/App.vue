@@ -10,6 +10,7 @@ import DisableComputed from './components/DisableComputed.vue'
 import TermsAgreement from './components/TermsAgreement.vue'
 import VbindStyle from './components/VbindStyle.vue'
 import VbindClass from './components/VbindClass.vue'
+import VifDemo from './components/VifDemo.vue'
 </script>
 
 <template>
@@ -26,7 +27,8 @@ import VbindClass from './components/VbindClass.vue'
       <!-- <DisableComputed /> -->
       <!-- <TermsAgreement /> -->
       <!-- <VbindStyle /> -->
-      <VbindClass />
+      <!-- <VbindClass /> -->
+      <VifDemo />
     </div>
   </header>
 
