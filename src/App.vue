@@ -16,6 +16,7 @@ import ConditionalRenderingReactive from './components/ConditionalRenderingReact
 import VifVshowDiff from './components/VifVshowDiff.vue'
 import VforObject from './components/VforObject.vue'
 import ProductList from './components/ProductList.vue'
+import ArrayChangeDetection from './components/ArrayChangeDetection.vue'
 </script>
 
 <template>
@@ -38,7 +39,8 @@ import ProductList from './components/ProductList.vue'
       <!-- <ConditionalRenderingReactive /> -->
       <!-- <VifVshowDiff /> -->
       <!-- <VforObject /> -->
-      <ProductList />
+      <!-- <ProductList /> -->
+      <ArrayChangeDetection />
     </div>
   </header>
 
