@@ -12,6 +12,7 @@ import VbindStyle from './components/VbindStyle.vue'
 import VbindClass from './components/VbindClass.vue'
 import VifDemo from './components/VifDemo.vue'
 import ConditionalRendering from './components/ConditionalRendering.vue'
+import VifVshowDiff from './components/VifVshowDiff.vue'
 </script>
 
 <template>
@@ -30,7 +31,8 @@ import ConditionalRendering from './components/ConditionalRendering.vue'
       <!-- <VbindStyle /> -->
       <!-- <VbindClass /> -->
       <!-- <VifDemo /> -->
-      <ConditionalRendering />
+      <!-- <ConditionalRendering /> -->
+      <VifVshowDiff />
     </div>
   </header>
 
