@@ -19,6 +19,7 @@ import ProductList from './components/ProductList.vue'
 import ArrayChangeDetection from './components/ArrayChangeDetection.vue'
 import ProductManager from './components/ProductManager.vue'
 import VonClick from './components/VonClick.vue'
+import VonInput from './components/VonInput.vue'
 </script>
 
 <template>
@@ -44,7 +45,8 @@ import VonClick from './components/VonClick.vue'
       <!-- <ProductList /> -->
       <!-- <ArrayChangeDetection /> -->
       <!-- <ProductManager /> -->
-      <VonClick />
+      <!-- <VonClick /> -->
+      <VonInput />
     </div>
   </header>
 
