@@ -17,6 +17,7 @@ import VifVshowDiff from './components/VifVshowDiff.vue'
 import VforObject from './components/VforObject.vue'
 import ProductList from './components/ProductList.vue'
 import ArrayChangeDetection from './components/ArrayChangeDetection.vue'
+import ProductManager from './components/ProductManager.vue'
 </script>
 
 <template>
@@ -40,7 +41,8 @@ import ArrayChangeDetection from './components/ArrayChangeDetection.vue'
       <!-- <VifVshowDiff /> -->
       <!-- <VforObject /> -->
       <!-- <ProductList /> -->
-      <ArrayChangeDetection />
+      <!-- <ArrayChangeDetection /> -->
+      <ProductManager />
     </div>
   </header>
 
