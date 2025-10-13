@@ -21,6 +21,7 @@ import ProductManager from './components/ProductManager.vue'
 import VonClick from './components/VonClick.vue'
 import VonInput from './components/VonInput.vue'
 import VonkeyEvent from './components/VonkeyEvent.vue'
+import VmodelDemo from './components/VmodelDemo.vue'
 </script>
 
 <template>
@@ -48,7 +49,8 @@ import VonkeyEvent from './components/VonkeyEvent.vue'
       <!-- <ProductManager /> -->
       <!-- <VonClick /> -->
       <!-- <VonInput /> -->
-      <VonkeyEvent />
+      <!-- <VonkeyEvent /> -->
+      <VmodelDemo />
     </div>
   </header>
 
