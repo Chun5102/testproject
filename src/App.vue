@@ -20,6 +20,7 @@ import ArrayChangeDetection from './components/ArrayChangeDetection.vue'
 import ProductManager from './components/ProductManager.vue'
 import VonClick from './components/VonClick.vue'
 import VonInput from './components/VonInput.vue'
+import VonkeyEvent from './components/VonkeyEvent.vue'
 </script>
 
 <template>
@@ -46,7 +47,8 @@ import VonInput from './components/VonInput.vue'
       <!-- <ArrayChangeDetection /> -->
       <!-- <ProductManager /> -->
       <!-- <VonClick /> -->
-      <VonInput />
+      <!-- <VonInput /> -->
+      <VonkeyEvent />
     </div>
   </header>
 
