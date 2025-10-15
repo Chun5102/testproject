@@ -22,6 +22,7 @@ import VonClick from './components/VonClick.vue'
 import VonInput from './components/VonInput.vue'
 import VonkeyEvent from './components/VonkeyEvent.vue'
 import VmodelDemo from './components/VmodelDemo.vue'
+import VmodelDemo2 from './components/VmodelDemo2.vue'
 </script>
 
 <template>
@@ -30,32 +31,33 @@ import VmodelDemo from './components/VmodelDemo.vue'
 
     <div class="wrapper">
       <!-- <HelloWorld msg="did it!" /> -->
-      <!-- <RefCount /> -->
-      <!-- <ReactiveComp /> -->
-      <!-- <ChangColor /> -->
-      <!-- <ComputedAndMethod /> -->
-      <!-- <ShppingCar /> -->
-      <!-- <DisableComputed /> -->
-      <!-- <TermsAgreement /> -->
-      <!-- <VbindStyle /> -->
-      <!-- <VbindClass /> -->
-      <!-- <VifDemo /> -->
-      <!-- <ConditionalRendering /> -->
-      <!-- <ConditionalRenderingReactive /> -->
-      <!-- <VifVshowDiff /> -->
-      <!-- <VforObject /> -->
-      <!-- <ProductList /> -->
-      <!-- <ArrayChangeDetection /> -->
-      <!-- <ProductManager /> -->
-      <!-- <VonClick /> -->
-      <!-- <VonInput /> -->
-      <!-- <VonkeyEvent /> -->
-      <VmodelDemo />
     </div>
   </header>
 
   <main>
-    <TheWelcome />
+    <!-- <TheWelcome /> -->
+    <!-- <RefCount /> -->
+    <!-- <ReactiveComp /> -->
+    <!-- <ChangColor /> -->
+    <!-- <ComputedAndMethod /> -->
+    <!-- <ShppingCar /> -->
+    <!-- <DisableComputed /> -->
+    <!-- <TermsAgreement /> -->
+    <!-- <VbindStyle /> -->
+    <!-- <VbindClass /> -->
+    <!-- <VifDemo /> -->
+    <!-- <ConditionalRendering /> -->
+    <!-- <ConditionalRenderingReactive /> -->
+    <!-- <VifVshowDiff /> -->
+    <!-- <VforObject /> -->
+    <!-- <ProductList /> -->
+    <!-- <ArrayChangeDetection /> -->
+    <!-- <ProductManager /> -->
+    <!-- <VonClick /> -->
+    <!-- <VonInput /> -->
+    <!-- <VonkeyEvent /> -->
+    <!-- <VmodelDemo /> -->
+    <VmodelDemo2 />
   </main>
 </template>
 
