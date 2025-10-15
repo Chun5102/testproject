@@ -24,6 +24,8 @@ import VonkeyEvent from './components/VonkeyEvent.vue'
 import VmodelDemo from './components/VmodelDemo.vue'
 import VmodelDemo2 from './components/VmodelDemo2.vue'
 import OnMounted from './components/OnMounted.vue'
+import OnUnmounted from './components/OnUnmounted.vue'
+import onUpdated from './components/onUpdated.vue'
 </script>
 
 <template>
@@ -59,7 +61,9 @@ import OnMounted from './components/OnMounted.vue'
     <!-- <VonkeyEvent /> -->
     <!-- <VmodelDemo /> -->
     <!-- <VmodelDemo2 /> -->
-    <OnMounted />
+    <!-- <OnMounted /> -->
+    <!-- <OnUnmounted /> -->
+    <onUpdated />
   </main>
 </template>
 
