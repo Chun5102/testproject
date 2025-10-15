@@ -23,6 +23,7 @@ import VonInput from './components/VonInput.vue'
 import VonkeyEvent from './components/VonkeyEvent.vue'
 import VmodelDemo from './components/VmodelDemo.vue'
 import VmodelDemo2 from './components/VmodelDemo2.vue'
+import OnMounted from './components/OnMounted.vue'
 </script>
 
 <template>
@@ -57,7 +58,8 @@ import VmodelDemo2 from './components/VmodelDemo2.vue'
     <!-- <VonInput /> -->
     <!-- <VonkeyEvent /> -->
     <!-- <VmodelDemo /> -->
-    <VmodelDemo2 />
+    <!-- <VmodelDemo2 /> -->
+    <OnMounted />
   </main>
 </template>
 
