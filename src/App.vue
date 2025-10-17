@@ -28,6 +28,7 @@ import OnUnmounted from './components/OnUnmounted.vue'
 import onUpdated from './components/onUpdated.vue'
 import RefComponent from './components/RefComponent.vue'
 import ParentComponent from './components/ParentComponent.vue'
+import WatchRef from './components/WatchRef.vue'
 </script>
 
 <template>
@@ -67,7 +68,8 @@ import ParentComponent from './components/ParentComponent.vue'
     <!-- <OnUnmounted /> -->
     <!-- <onUpdated /> -->
     <!-- <RefComponent /> -->
-    <ParentComponent />
+    <!-- <ParentComponent /> -->
+    <WatchRef />
   </main>
 </template>
 
