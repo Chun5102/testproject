@@ -1,9 +1,9 @@
 <script setup>
-import { computed, ref, watchEffect } from 'vue'
+import { computed, ref, watchEffect, watch } from 'vue'
 // 假設猜數字範圍為 0-100
 const guess = ref(Math.floor(Math.random() * 100))
 const count = ref(0)
-// const message = ref('')
+const message = ref('')
 
 // 限制count輸入數字範圍, 0-100
 watchEffect(() => {
@@ -14,15 +14,26 @@ watchEffect(() => {
   }
 })
 
-const message = computed(() => {
-  if (count.value < guess.value) {
-    return 'too low'
-  } else if (count.value > guess.value) {
-    return 'too high'
+// const message = computed(() => {
+//   if (count.value < guess.value) {
+//     return 'too low'
+//   } else if (count.value > guess.value) {
+//     return 'too high'
+//   } else {
+//     return 'Correct'
+//   }
+// })
+
+watch(count, (newval) => {
+  if (newval < guess.value) {
+    message.value = 'too low'
+  } else if (newval > guess.value) {
+    message.value = 'too high'
   } else {
-    return 'Correct'
+    message.value = 'Correct'
   }
 })
+
 // watchEffect(() => {
 //   if (count.value < guess.value) {
 //     message.value = 'too low'
