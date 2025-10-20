@@ -31,6 +31,7 @@ import ParentComponent from './components/ParentComponent.vue'
 import WatchRef from './components/WatchRef.vue'
 import WatchDeepAndMutiValues from './components/WatchDeepAndMutiValues.vue'
 import WatchEffectComp from './components/WatchEffectComp.vue'
+import TabComponent from './components/is/TabComponent.vue'
 </script>
 
 <template>
@@ -73,7 +74,8 @@ import WatchEffectComp from './components/WatchEffectComp.vue'
     <!-- <ParentComponent /> -->
     <!-- <WatchRef /> -->
     <!-- <WatchDeepAndMutiValues /> -->
-    <WatchEffectComp />
+    <!-- <WatchEffectComp /> -->
+    <TabComponent />
   </main>
 </template>
 
