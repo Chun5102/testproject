@@ -36,6 +36,7 @@ import RegisterRunDown from './components/is/RegisterRunDown.vue'
 import PropsComp from './components/PropsComp.vue'
 import ProductPage from './components/ProductPage.vue'
 import FancyButton from './components/slot/FancyButton.vue'
+import BaseLayout from './components/slot/BaseLayout.vue'
 
 import { ref } from 'vue'
 
@@ -113,9 +114,17 @@ function onDelete() {
     /> -->
     <!-- <PropsComp :propA="'A'" :propG="'success'" :propH="() => {}" :disabled="true" /> -->
     <!-- <ProductPage /> -->
-    <FancyButton><template v-slot:default>click me</template></FancyButton>
+    <!-- <FancyButton><template v-slot:default>click me</template></FancyButton>
     <FancyButton><template #default>click me</template></FancyButton>
-    <FancyButton>click me</FancyButton>
+    <FancyButton>click me</FancyButton> -->
+    <BaseLayout
+      ><template #header><h1>Here might be a page title</h1></template>
+      <template #default>
+        <p>A paragraph for the main content.</p>
+        <p>And another one.</p>
+      </template>
+      <template #footer><p>Here's some contact info</p></template></BaseLayout
+    >
   </main>
 </template>
 
