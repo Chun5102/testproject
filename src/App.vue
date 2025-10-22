@@ -40,7 +40,7 @@ import BaseLayout from './components/slot/BaseLayout.vue'
 import TabBar from './components/slot/TabBar.vue'
 import TabBarP from './components/slot/TabBarP.vue'
 import UserData from './components/slot/UserData.vue'
-import ProvideInjectRef from './components/Provide/ProvideInjectRef.vue'
+import ProvideInjectRef from './components/components/ProvideInjectRef.vue'
 
 import { ref } from 'vue'
 
