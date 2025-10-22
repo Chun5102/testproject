@@ -43,6 +43,7 @@ import UserData from './components/slot/UserData.vue'
 import ProvideInjectRef from './components/components/ProvideInjectRef.vue'
 
 import { ref } from 'vue'
+import { formatPrice } from './components/utils/format'
 
 const show = ref(false)
 
@@ -132,7 +133,9 @@ function onDelete() {
     <!-- <TabBar /> -->
     <!-- <TabBarP /> -->
     <!-- <UserData /> -->
-    <ProvideInjectRef />
+    <!-- <ProvideInjectRef /> -->
+    {{ $formatDate(new Date()) }}<br />
+    {{ formatPrice(1000, 0, '$') }}
   </main>
 </template>
 
