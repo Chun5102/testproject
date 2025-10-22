@@ -38,8 +38,9 @@ import ProductPage from './components/ProductPage.vue'
 import FancyButton from './components/slot/FancyButton.vue'
 import BaseLayout from './components/slot/BaseLayout.vue'
 import TabBar from './components/slot/TabBar.vue'
-import TabBarP from './components/slot/TabBarp.vue'
+import TabBarP from './components/slot/TabBarP.vue'
 import UserData from './components/slot/UserData.vue'
+import ProvideInjectRef from './components/Provide/ProvideInjectRef.vue'
 
 import { ref } from 'vue'
 
@@ -130,7 +131,8 @@ function onDelete() {
     </BaseLayout> -->
     <!-- <TabBar /> -->
     <!-- <TabBarP /> -->
-    <UserData />
+    <!-- <UserData /> -->
+    <ProvideInjectRef />
   </main>
 </template>
 
