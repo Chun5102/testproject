@@ -38,4 +38,7 @@ function formatDate(date, style) {
   }
 }
 
+const format = { formatPrice, formatDate }
 export { formatPrice, formatDate }
+
+export default format
