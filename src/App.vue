@@ -42,7 +42,7 @@ import TabBarP from './components/slot/TabBarP.vue'
 import UserData from './components/slot/UserData.vue'
 import ProvideInjectRef from './components/components/ProvideInjectRef.vue'
 
-import { ref } from 'vue'
+import { ref, getCurrentInstance } from 'vue'
 import { formatPrice } from './components/utils/format'
 
 const show = ref(false)
@@ -62,6 +62,15 @@ function onCancel() {
 function onDelete() {
   console.log('刪除成功')
 }
+
+const { appContext } = getCurrentInstance()
+console.log('🚀 ~ appContext:', appContext)
+
+const { $formatPrice, $formatDate } = appContext.config.globalProperties
+const price = $formatPrice(1000, 3)
+console.log('🚀 ~ price:', price)
+const date = $formatDate(new Date())
+console.log('🚀 ~ date:', date)
 </script>
 
 <template>
