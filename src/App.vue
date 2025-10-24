@@ -41,6 +41,7 @@ import TabBar from './components/slot/TabBar.vue'
 import TabBarP from './components/slot/TabBarP.vue'
 import UserData from './components/slot/UserData.vue'
 import ProvideInjectRef from './components/components/ProvideInjectRef.vue'
+import TopBar from './components/TopBar.vue'
 
 import useFormat from './components/composables/useFormat'
 import { ref } from 'vue'
@@ -143,10 +144,7 @@ console.log('🚀 ~ date:', date)
     <!-- {{ $formatDate(new Date()) }}<br />
     {{ formatPrice(1000, 0, '$') }} -->
     <h1>我的網站</h1>
-    <nav>
-      <router-link to="/">首頁</router-link> | <router-link to="/about">關於</router-link> |
-      <router-link to="/users/Jerry/posts/1234">使用者資訊</router-link>
-    </nav>
+    <TopBar />
     <router-view />
   </main>
 </template>
