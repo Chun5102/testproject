@@ -16,8 +16,13 @@ const routes = [
     children: [
       { path: ':id', name: 'userData', component: UsersData, props: true }, // ✅ 啟用 props
       { path: '/users/list', component: UsersList },
-      { path: '/users/profile', component: UsersProfile },
+      { path: '/users/profile', name: 'profile', component: UsersProfile },
     ],
+  },
+  {
+    path: '/user/:username',
+    name: 'UserDetail',
+    component: () => import('@/views/UserDetail.vue'),
   },
 ]
 const router = createRouter({
