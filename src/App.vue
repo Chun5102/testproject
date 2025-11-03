@@ -42,6 +42,7 @@ import TabBarP from './components/slot/TabBarP.vue'
 import UserData from './components/slot/UserData.vue'
 import ProvideInjectRef from './components/components/ProvideInjectRef.vue'
 import TopBar from './components/TopBar.vue'
+import AxiosComp from './components/AxiosComp.vue'
 
 import useFormat from './components/composables/useFormat'
 import { ref } from 'vue'
