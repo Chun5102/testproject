@@ -144,13 +144,23 @@ console.log('🚀 ~ date:', date)
     <!-- <ProvideInjectRef /> -->
     <!-- {{ $formatDate(new Date()) }}<br />
     {{ formatPrice(1000, 0, '$') }} -->
-    <h1>我的網站</h1>
-    <TopBar />
-    <router-view />
+    <div>
+      <TopBar class="app-container" />
+      <router-view />
+    </div>
   </main>
 </template>
 
 <style scoped>
+.app-container {
+  display: flex;
+  flex-direction: column; /* 頁面佈局為垂直方向 */
+}
+
+router-view {
+  flex-grow: 1; /* 讓 <router-view /> 占滿剩餘空間 */
+  padding: 20px; /* 給內容一點內邊距 */
+}
 header {
   line-height: 1.5;
 }
